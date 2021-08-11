@@ -2,7 +2,7 @@
 @foreach($jobsUitDeController as $job)
     <tr>
         <td style="border: 1px solid grey">
-            <a href="{{ route('jobs.edit',$job->job_id) }}">    
+            <a href="{{ route('jobs.show',$job->job_id) }}">    
                 {{ $job->job_desc }}
             </a>
         </td>
